@@ -1,0 +1,528 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "attribute": [
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "text",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "standard",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Full Name",
+            "help": "",
+            "displayInGroupForms": false,
+            "customType": "",
+            "advancedControl": "",
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "name",
+          "description": "",
+          "defaultLabel": "Name",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "text",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "standard",
+            "editable": "validation",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Phone number",
+            "help": "ex: +41234567890",
+            "displayInGroupForms": false,
+            "customType": "tel",
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": "error message when invalid"
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "phone",
+          "description": "",
+          "defaultLabel": "Phone number",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "text",
+            "selection": [
+              {
+                "value": "m",
+                "label": "Male"
+              },
+              {
+                "value": "f",
+                "label": "Female"
+              }
+            ],
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "radio",
+            "editable": "always",
+            "mandatory": true,
+            "multi": false,
+            "hint": "Gender",
+            "help": "",
+            "displayInGroupForms": false,
+            "customType": null,
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": "please choose a gender"
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "gender",
+          "description": "",
+          "defaultLabel": "Gender",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "integer",
+            "selection": null,
+            "min": 18,
+            "max": 99
+          },
+          "form": {
+            "displayed": "always",
+            "control": "standard",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Age",
+            "help": "Slide to the desired age",
+            "displayInGroupForms": false,
+            "customType": "slider",
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "age",
+          "description": "",
+          "defaultLabel": "Age",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "integer",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "standard",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Weight (kg)",
+            "help": "",
+            "displayInGroupForms": false,
+            "customType": "",
+            "advancedControl": "",
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "weight",
+          "description": "",
+          "defaultLabel": "Weight",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        }
+      ],
+      "defaultLabel": "User information",
+      "description": ""
+    },
+    {
+      "id": "cat2",
+      "attribute": [
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "bool",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "standard",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Select if the account is active",
+            "help": "Select if the account is active",
+            "displayInGroupForms": false,
+            "customType": "",
+            "advancedControl": "",
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "isActive",
+          "description": "",
+          "defaultLabel": "Active account",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "bool",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "radio",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "has driving license",
+            "help": "Choose if account identity has a driving license",
+            "displayInGroupForms": false,
+            "customType": null,
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "drivingLicense",
+          "description": "",
+          "defaultLabel": "Has Driving license",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "text",
+            "selection": [
+              {
+                "value": "ro",
+                "label": "Romana"
+              },
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "de",
+                "label": "Deutsch"
+              },
+              {
+                "value": "fr",
+                "label": "Franch"
+              },
+              {
+                "value": "it",
+                "label": "Italian"
+              }
+            ],
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "checkbox",
+            "editable": "always",
+            "mandatory": false,
+            "multi": true,
+            "hint": "Known languages",
+            "help": "",
+            "displayInGroupForms": false,
+            "customType": null,
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "languages",
+          "description": "",
+          "defaultLabel": "Known Languages",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "integer",
+            "selection": [
+              {
+                "value": "1",
+                "label": "Beginner"
+              },
+              {
+                "value": "2",
+                "label": "Medium"
+              },
+              {
+                "value": "3",
+                "label": "Advanced"
+              },
+              {
+                "value": "4",
+                "label": "Master"
+              },
+              {
+                "value": "5",
+                "label": "Elite"
+              }
+            ],
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "displayed": "always",
+            "control": "select",
+            "editable": "always",
+            "mandatory": false,
+            "multi": false,
+            "hint": "Skill level",
+            "help": "",
+            "displayInGroupForms": false,
+            "customType": null,
+            "advancedControl": null,
+            "calculate": "",
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "errorMessage": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "skill",
+          "description": "",
+          "defaultLabel": "Skill level",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        },
+        {
+          "identity": {
+            "authoritative": false,
+            "isUsedForDuplicatesDetection": false
+          },
+          "syntax": {
+            "type": "text",
+            "selection": null,
+            "min": null,
+            "max": null
+          },
+          "form": {
+            "multi": false,
+            "searchControl": {
+              "searchConfiguration": "",
+              "baseDN": "",
+              "filter": ""
+            },
+            "help": "Describe yourself",
+            "hint": "Short personal description",
+            "control": "textarea",
+            "displayed": "always",
+            "displayedIf": "",
+            "hiddenBehavior": null,
+            "editableIf": "",
+            "mandatoryIf": "",
+            "constraint": "",
+            "editable": "always",
+            "mandatory": false,
+            "errorMessage": "",
+            "customType": null,
+            "advancedControl": null,
+            "calculate": ""
+          },
+          "rule": null,
+          "initRule": null,
+          "submitRule": null,
+          "restApiVisibilityLevel": null,
+          "name": "summary",
+          "description": "",
+          "defaultLabel": "Summary",
+          "serviceType": "",
+          "objectId": false,
+          "isEnabled": true
+        }
+      ],
+      "defaultLabel": "Other information",
+      "description": ""
+    }
+  ]
+}
