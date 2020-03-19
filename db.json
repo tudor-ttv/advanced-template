@@ -128,7 +128,7 @@
           "syntax": {
             "type": "integer",
             "selection": null,
-            "min": null,
+            "min": 0,
             "max": null
           },
           "form": {
