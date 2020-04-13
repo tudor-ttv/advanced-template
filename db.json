@@ -260,7 +260,7 @@
           },
           "name": "languages",
           "description": "",
-          "defaultLabel": "Known Languages",
+          "defaultLabel": "Known languages",
           "serviceType": "",
           "isEnabled": true
         },
