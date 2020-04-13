@@ -211,7 +211,7 @@
           },
           "name": "drivingLicense",
           "description": "",
-          "defaultLabel": "Has Driving license",
+          "defaultLabel": "Driving license",
           "serviceType": "",
           "isEnabled": true
         },
