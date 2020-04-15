@@ -51,7 +51,7 @@
             "advancedControl": null,
             "displayedIf": "",
             "hiddenBehavior": null,
-            "errorMessage": "error message when invalid"
+            "errorMessage": "Not a valid phone number"
           },
           "name": "phone",
           "description": "",
@@ -88,7 +88,7 @@
             "advancedControl": null,
             "displayedIf": "",
             "hiddenBehavior": null,
-            "errorMessage": "please choose a gender"
+            "errorMessage": "Please choose a gender"
           },
           "name": "gender",
           "description": "",
@@ -200,7 +200,7 @@
             "editable": "always",
             "mandatory": false,
             "multi": false,
-            "hint": "has driving license",
+            "hint": "Has driving license",
             "help": "Choose if account identity has a driving license",
             "displayInGroupForms": false,
             "customType": null,
